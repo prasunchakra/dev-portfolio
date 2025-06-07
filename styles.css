@@ -1,5 +1,9 @@
 /* Global styles */
+html {
+  scroll-behavior: smooth;
+}
 body {
+    animation: fadeIn 1.5s ease-in;
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
@@ -7,7 +11,10 @@ body {
     margin: 0;
     padding: 0;
   }
-  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
   /* Header styling */
   header {
     background-color: #4a90e2;
@@ -126,4 +133,37 @@ body {
     .project-grid {
       grid-template-columns: 1fr;
     }
+  }
+
+  .project-item img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .project-item h3 {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  .project-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+
+  .btn {
+    display: inline-block;
+    background-color: #4a90e2;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #357abd;
   }
