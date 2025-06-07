@@ -2,7 +2,7 @@
 
 *A step-by-step beginner's guide to building and deploying a professional portfolio website using pure HTML and CSS.*  
 
-![Portfolio Preview](assets/project.png)  
+![Portfolio Preview](assets/profile.png)  
 
 ## 📌 Course Overview  
 This project-based course teaches HTML/CSS fundamentals by building a **fully responsive portfolio website** from scratch. Perfect for:  
