@@ -2,7 +2,6 @@
 
 *A step-by-step beginner's guide to building and deploying a professional portfolio website using pure HTML and CSS.*  
 
-![Portfolio Preview](assets/profile.png)  
 
 ## 📌 Course Overview  
 This project-based course teaches HTML/CSS fundamentals by building a **fully responsive portfolio website** from scratch. Perfect for:  
@@ -22,8 +21,8 @@ portfolio-project/
 ├── index.html          # Main HTML file
 ├── styles.css          # All CSS styles
 ├── assets/             # Images/icons
-│   ├── profile.jpg     
-│   └── project.png   
+│   ├── project1.jpg     
+│   └── project2.png  
 └── README.md           # This file
 ```
 
@@ -39,25 +38,18 @@ git clone https://github.com/prasunchakra/dev-portfolio.git
 3. Follow the step-by-step lessons (links below)
 
 ## 📚 Step-by-Step Lessons
-HTML Foundations
 
-Build the skeleton of your portfolio
+Chapter 1: [HTML/CSS Foundations](https://dev.to/prasunchakra/htmlcss-foundations-76l)
 
-CSS Styling
+Chapter 2: [Building Your Portfolio’s Structure](https://dev.to/prasunchakra/chapter-2-building-your-portfolios-structure-4pc1)
 
-Add colors, fonts, and basic layouts
+Chapter 3: [Making It Beautiful: Colors, Fonts, and Layouts](https://dev.to/prasunchakra/chapter-3-making-it-beautiful-colors-fonts-and-layouts-25g6)
 
-Advanced Layouts
+Chapter 4: [Grids, Flexbox, and Responsive Design](https://dev.to/prasunchakra/chapter-4-grids-flexbox-and-responsive-design-47g9)
 
-Implement Flexbox and Grid
+Chapter 5: [Final Touches & Interactive Magic](https://dev.to/prasunchakra/chapter-5-final-touches-interactive-magic-1bdp)
 
-Responsive Design
-
-Make it mobile-friendly
-
-Deployment
-
-Go live with GitHub Pages
+Chapter 6: [Going Live! Deploying Your Portfolio to GitHub Pages](https://dev.to/prasunchakra/chapter-6-going-live-deploying-your-portfolio-to-github-pages-50hk)
 
 ## 🌟 Final Outcome
 By the end, you'll have:
