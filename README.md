@@ -1,87 +1,271 @@
-# Master HTML/CSS from Scratch : Build & Deploy Your Portfolio 🚀  
+# Building Our Portfolio's Structure: Laying the Semantic Foundation
 
-*A step-by-step beginner's guide to building and deploying a professional portfolio website using pure HTML and CSS.*  
+## Topics Covered
 
-<!-- ![Portfolio Preview](https://via.placeholder.com/800x400?text=Portfolio+Preview)  
-*(TODO: Replace with actual screenshot after project completion)*   -->
+### 1. Text Structure & Semantics
+- **Paragraphs**
+  - `<p>` - Basic paragraph element
 
-## 📌 Course Overview  
-This project-based course teaches HTML/CSS fundamentals by building a **fully responsive portfolio website** from scratch. Perfect for:  
-- Absolute beginners in web development  
-- College students building their first portfolio  
-- Developers needing a refresher on core concepts  
+- **Headings**
+  - `<h1>` to `<h6>` - Hierarchical heading elements
 
-## 🛠 What You'll Learn  
-✅ **HTML5** semantic structure  
-✅ **CSS3** styling and layouts (Flexbox/Grid)  
-✅ **Responsive Design** (Mobile-first approach)  
-✅ **Deployment** (GitHub Pages)  
+- **Bold & Italics**
+  - Semantic: `<strong>`, `<em>`
+  - Stylistic: `<b>`, `<i>`
 
-## 📂 Project Structure  
-```plaintext
-portfolio-project/
-├── index.html          # Main HTML file
-├── styles.css          # All CSS styles
-├── assets/             # Images/icons
-│   ├── profile.jpg     
-│   └── project-1.png   
-└── README.md           # This file
-```
+- **Special Text Elements**
+  - Superscript/Subscript: `<sup>`, `<sub>`
+  - Small text: `<small>`
 
-## 🚀 Getting Started
+### 2. Lists
+- **Ordered Lists**
+  - `<ol>` - Numbered lists
 
-1. Clone the repository:
-```bash
-git clone https://github.com/prasunchakra/dev-portfolio.git
-```
+- **Unordered Lists**
+  - `<ul>` - Bulleted lists
 
-2. Open `index.html` in your browser
+- **Description Lists**
+  - `<dl>` - Description list container
+  - `<dt>` - Description term
+  - `<dd>` - Description details
 
-3. Follow the step-by-step lessons (links below)
+### 3. Quotations & Citations
+- **Block Quotes**
+  - `<blockquote>` - Long quotations
 
-## 📚 Step-by-Step Lessons
-HTML Foundations
+- **Inline Quotes**
+  - `<q>` - Short inline quotations
 
-Build the skeleton of your portfolio
+- **Citations**
+  - `<cite>` - Reference citations
 
-CSS Styling
+### 4. Dates & Times
+- **Machine-readable Dates**
+  - `<time datetime="...">` - Structured date/time information
 
-Add colors, fonts, and basic layouts
+### 5. Special Characters
+- **Character Entities**
+  - `&lt;` - Less than
+  - `&copy;` - Copyright
+  - `&nbsp;` - Non-breaking space
 
-Advanced Layouts
+### 6. Code Display
+- **Inline Code**
+  - `<code>` - Inline code snippets
 
-Implement Flexbox and Grid
+- **Preformatted Text**
+  - `<pre>` - Preserved formatting
 
-Responsive Design
+- **Line Breaks**
+  - `<br>` - Line break element
 
-Make it mobile-friendly
+### 7. Tables
+- **Table Structure**
+  - `<table>` - Table container
+  - `<tr>` - Table row
+  - `<td>` - Table data cell
+  - `<th>` - Table header cell
+  - `<caption>` - Table caption
 
-Deployment
+### 8. Document Structure
+- **DOM Relationships**
+  - Parent/child/sibling nodes
+  - Tree structure visualization
 
-Go live with GitHub Pages
+- **Semantic Layout**
+  - `<header>` - Page header
+  - `<main>` - Main content
+  - `<footer>` - Page footer
+  - `<section>` - Content section
+  - `<article>` - Self-contained content
+  - `<aside>` - Sidebar content
 
-## 🌟 Final Outcome
-By the end, you'll have:
+### 9. HTML Document Basics
+- **Document Type**
+  - `<!DOCTYPE html>`
 
-A personal portfolio website showcasing your skills/projects
+- **HTML Root**
+  - `<html lang="...">`
 
-Hands-on experience with real-world HTML/CSS
+- **Head Section**
+  - `<title>` - Page title
+  - Meta tags (charset, viewport)
+  - `<link>` - External resources
 
-A live URL to share with employers!
+- **Body Structure**
+  - `<body>` - Main content container
 
-## 🤝 How to Contribute
-Found a bug or want to improve the course?
+---
 
-Fork the repo
+*Each topic includes code examples and explanations of semantic best practices.*
 
-Create a branch (git checkout -b feature/improvement)
+## Quiz Section
 
-Commit changes (git commit -m 'Add new feature')
+### 1. Which HTML tag is used to define a paragraph?
 
-Push to branch (git push origin feature/improvement)
+- A: `<div>`
+- B: `<p>`
+- C: `<span>`
+- D: `<section>`
 
-Open a Pull Request
+<details>
+<summary><b>Answer</b></summary>
 
-## 📜 License
-This project is licensed under the MIT License.
+#### Answer: B
+
+The `<p>` tag is used to define paragraphs in HTML. It automatically inserts visual spacing between blocks of text, making content more readable.
+</details>
+
+---
+
+### 2. What is the correct order of heading tags from highest to lowest importance?
+
+- A: `<h6>`, `<h5>`, `<h4>`, `<h3>`, `<h2>`, `<h1>`
+- B: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`
+- C: `<h3>`, `<h2>`, `<h1>`, `<h4>`, `<h5>`, `<h6>`
+- D: `<h2>`, `<h1>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`
+
+<details>
+<summary><b>Answer</b></summary>
+
+#### Answer: B
+
+Headings range from `<h1>` (most important) to `<h6>` (least important), forming a clear content hierarchy.
+</details>
+
+---
+
+### 3. Which list type should you use when the order of items matters?
+
+- A: `<ul>`
+- B: `<ol>`
+- C: `<dl>`
+- D: `<li>`
+
+<details>
+<summary><b>Answer</b></summary>
+
+#### Answer: B
+
+Ordered lists `<ol>` are used when the order of items matters, such as in instructions or steps.
+</details>
+
+---
+
+### 4. What is the semantic difference between `<strong>` and `<b>` tags?
+
+- A: `<strong>` is for styling only; `<b>` indicates importance
+- B: `<strong>` indicates importance; `<b>` is for styling only
+- C: Both tags have the same semantic meaning
+- D: `<b>` is deprecated; `<strong>` is the standard tag
+
+<details>
+<summary><b>Answer</b></summary>
+
+#### Answer: B
+
+`<strong>` indicates importance and is semantic, while `<b>` is purely for stylistic bolding without semantic meaning.
+</details>
+
+---
+
+### 5. How do you correctly include the less-than symbol < in HTML content?
+
+- A: `<lt>`
+- B: `&lt;`
+- C: `<less>`
+- D: `&less;`
+
+<details>
+<summary><b>Answer</b></summary>
+
+#### Answer: B
+
+The less-than symbol is represented by the character entity `&lt;` in HTML.
+</details>
+
+---
+
+### 6. Which tag is used for short inline quotations that automatically add quotation marks?
+
+- A: `<blockquote>`
+- B: `<q>`
+- C: `<cite>`
+- D: `<quote>`
+
+<details>
+<summary><b>Answer</b></summary>
+
+#### Answer: B
+
+The `<q>` tag is used for short inline quotes and automatically adds curly quotation marks.
+</details>
+
+---
+
+### 7. What is the purpose of the `<time>` tag in HTML?
+
+- A: To display the current time dynamically
+- B: To mark up dates and times in a machine-readable way
+- C: To create countdown timers
+- D: To format text as timestamps visually only
+
+<details>
+<summary><b>Answer</b></summary>
+
+#### Answer: B
+
+The `<time>` tag marks up dates and times with a machine-readable datetime attribute, improving accessibility and SEO.
+</details>
+
+---
+
+### 8. Which element provides a title or description for an HTML table?
+
+- A: `<thead>`
+- B: `<caption>`
+- C: `<title>`
+- D: `<summary>`
+
+<details>
+<summary><b>Answer</b></summary>
+
+#### Answer: B
+
+The `<caption>` element provides an optional title or description for a table, appearing above the table.
+</details>
+
+---
+
+### 9. In the DOM tree, what is the relationship between two elements that share the same parent?
+
+- A: Parent and child
+- B: Ancestor and descendant
+- C: Siblings
+- D: Unrelated
+
+<details>
+<summary><b>Answer</b></summary>
+
+#### Answer: C
+
+Elements with the same parent are siblings in the DOM tree.
+</details>
+
+---
+
+### 10. Which HTML5 semantic element is best suited for self-contained content like blog posts?
+
+- A: `<section>`
+- B: `<article>`
+- C: `<aside>`
+- D: `<div>`
+
+<details>
+<summary><b>Answer</b></summary>
+
+#### Answer: B
+
+The `<article>` element is used for self-contained content such as blog posts or product cards.
+</details>
 
